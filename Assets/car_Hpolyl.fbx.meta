@@ -1,0 +1,350 @@
+fileFormatVersion: 2
+guid: f7d9297a2ec3dfc44a13ce34b941e5f3
+timeCreated: 1519062626
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Amarture_Plane.000
+    100002: Armatur_oben_Plane.000
+    100004: Armaturenbrett_Plane.000
+    100006: Auto_Himmel_Plane.000
+    100008: AXA_symbol .001
+    100010: 'B_bumper '
+    100012: B_bumper .008
+    100014: back_glass
+    100016: Bedienung_Lueftung_Plane.000
+    100018: //RootNode
+    100020: Cube.006
+    100022: Door_B.L
+    100024: Door_B.R
+    100026: 'Door_F.L '
+    100028: Door_F.R
+    100030: engine_cover .014
+    100032: F_bumper.004
+    100034: F_bumper.005
+    100036: F_bumper.006
+    100038: F_door.005
+    100040: Frame.012
+    100042: Frame.013
+    100044: Fussmatten_Plane.000
+    100046: Light_front_001_Plane.012
+    100048: lmp_cover.B
+    100050: Lueftung_Plane.000
+    100052: Lueftung_vorn_mitte_Plane.003
+    100054: Lueftungsgitter_vorne_Plane.000
+    100056: Lueftungsraeder_Plane.000
+    100058: Mirrow_Plane.007
+    100060: Mittelkonsole_Plane.000
+    100062: Navi_Plane.000
+    100064: Roof.004
+    100066: Room_schale_Plane.000
+    100068: Rueckleuchten_Plane.004
+    100070: Rueckspiegel_Plane.003
+    100072: Scheinwerfer_fass.001_Plane.003
+    100074: Side_Frame
+    100076: Sitz_High.001_Mesh.016
+    100078: Sitz_High.001_Mesh.017
+    100080: Sitz_High.001_Mesh.018
+    100082: Sitz_High.001_Mesh.019
+    100084: steering_wheel_Circle.000
+    100086: Tachowglas_Circle.001
+    100088: Tachowglas_Circle.002
+    100090: 'Trunk '
+    100092: Wheel.L.B.
+    100094: Wheel.L.F
+    100096: Wheel.R.B
+    100098: Wheel.R.F
+    100100: 'Wind_shield '
+    400000: Amarture_Plane.000
+    400002: Armatur_oben_Plane.000
+    400004: Armaturenbrett_Plane.000
+    400006: Auto_Himmel_Plane.000
+    400008: AXA_symbol .001
+    400010: 'B_bumper '
+    400012: B_bumper .008
+    400014: back_glass
+    400016: Bedienung_Lueftung_Plane.000
+    400018: //RootNode
+    400020: Cube.006
+    400022: Door_B.L
+    400024: Door_B.R
+    400026: 'Door_F.L '
+    400028: Door_F.R
+    400030: engine_cover .014
+    400032: F_bumper.004
+    400034: F_bumper.005
+    400036: F_bumper.006
+    400038: F_door.005
+    400040: Frame.012
+    400042: Frame.013
+    400044: Fussmatten_Plane.000
+    400046: Light_front_001_Plane.012
+    400048: lmp_cover.B
+    400050: Lueftung_Plane.000
+    400052: Lueftung_vorn_mitte_Plane.003
+    400054: Lueftungsgitter_vorne_Plane.000
+    400056: Lueftungsraeder_Plane.000
+    400058: Mirrow_Plane.007
+    400060: Mittelkonsole_Plane.000
+    400062: Navi_Plane.000
+    400064: Roof.004
+    400066: Room_schale_Plane.000
+    400068: Rueckleuchten_Plane.004
+    400070: Rueckspiegel_Plane.003
+    400072: Scheinwerfer_fass.001_Plane.003
+    400074: Side_Frame
+    400076: Sitz_High.001_Mesh.016
+    400078: Sitz_High.001_Mesh.017
+    400080: Sitz_High.001_Mesh.018
+    400082: Sitz_High.001_Mesh.019
+    400084: steering_wheel_Circle.000
+    400086: Tachowglas_Circle.001
+    400088: Tachowglas_Circle.002
+    400090: 'Trunk '
+    400092: Wheel.L.B.
+    400094: Wheel.L.F
+    400096: Wheel.R.B
+    400098: Wheel.R.F
+    400100: 'Wind_shield '
+    2100000: car_chasette
+    2100002: windShield
+    2100004: BlcK_inner
+    2100006: Material.001
+    2100008: bulb_cover
+    2100010: car_rims_
+    2100012: bulb_inner_metal
+    2100014: bulb_inner
+    2100016: AXA_symbol_
+    2100018: mirror_
+    2100020: Beige_inner
+    2100022: Beige_Leather_
+    2100024: Tires_
+    2100026: rite_rims
+    2100028: AXA_red_ribbobn_
+    2100030: bulb_cover_red
+    2300000: Amarture_Plane.000
+    2300002: Armatur_oben_Plane.000
+    2300004: Armaturenbrett_Plane.000
+    2300006: Auto_Himmel_Plane.000
+    2300008: AXA_symbol .001
+    2300010: B_bumper .008
+    2300012: back_glass
+    2300014: Bedienung_Lueftung_Plane.000
+    2300016: Cube.006
+    2300018: Door_B.L
+    2300020: Door_B.R
+    2300022: Door_F.R
+    2300024: F_bumper.005
+    2300026: F_bumper.006
+    2300028: F_door.005
+    2300030: Frame.012
+    2300032: Frame.013
+    2300034: Fussmatten_Plane.000
+    2300036: Light_front_001_Plane.012
+    2300038: lmp_cover.B
+    2300040: Lueftung_Plane.000
+    2300042: Lueftung_vorn_mitte_Plane.003
+    2300044: Lueftungsgitter_vorne_Plane.000
+    2300046: Lueftungsraeder_Plane.000
+    2300048: Mirrow_Plane.007
+    2300050: Mittelkonsole_Plane.000
+    2300052: Navi_Plane.000
+    2300054: Roof.004
+    2300056: Room_schale_Plane.000
+    2300058: Rueckleuchten_Plane.004
+    2300060: Rueckspiegel_Plane.003
+    2300062: Scheinwerfer_fass.001_Plane.003
+    2300064: Sitz_High.001_Mesh.016
+    2300066: Sitz_High.001_Mesh.017
+    2300068: Sitz_High.001_Mesh.018
+    2300070: Sitz_High.001_Mesh.019
+    2300072: steering_wheel_Circle.000
+    2300074: Tachowglas_Circle.001
+    2300076: Tachowglas_Circle.002
+    2300078: Wheel.L.B.
+    2300080: Wheel.L.F
+    2300082: Wheel.R.B
+    2300084: Wheel.R.F
+    2300086: 'Wind_shield '
+    3300000: Amarture_Plane.000
+    3300002: Armatur_oben_Plane.000
+    3300004: Armaturenbrett_Plane.000
+    3300006: Auto_Himmel_Plane.000
+    3300008: AXA_symbol .001
+    3300010: B_bumper .008
+    3300012: back_glass
+    3300014: Bedienung_Lueftung_Plane.000
+    3300016: Cube.006
+    3300018: Door_B.L
+    3300020: Door_B.R
+    3300022: Door_F.R
+    3300024: F_bumper.005
+    3300026: F_bumper.006
+    3300028: F_door.005
+    3300030: Frame.012
+    3300032: Frame.013
+    3300034: Fussmatten_Plane.000
+    3300036: Light_front_001_Plane.012
+    3300038: lmp_cover.B
+    3300040: Lueftung_Plane.000
+    3300042: Lueftung_vorn_mitte_Plane.003
+    3300044: Lueftungsgitter_vorne_Plane.000
+    3300046: Lueftungsraeder_Plane.000
+    3300048: Mirrow_Plane.007
+    3300050: Mittelkonsole_Plane.000
+    3300052: Navi_Plane.000
+    3300054: Roof.004
+    3300056: Room_schale_Plane.000
+    3300058: Rueckleuchten_Plane.004
+    3300060: Rueckspiegel_Plane.003
+    3300062: Scheinwerfer_fass.001_Plane.003
+    3300064: Sitz_High.001_Mesh.016
+    3300066: Sitz_High.001_Mesh.017
+    3300068: Sitz_High.001_Mesh.018
+    3300070: Sitz_High.001_Mesh.019
+    3300072: steering_wheel_Circle.000
+    3300074: Tachowglas_Circle.001
+    3300076: Tachowglas_Circle.002
+    3300078: Wheel.L.B.
+    3300080: Wheel.L.F
+    3300082: Wheel.R.B
+    3300084: Wheel.R.F
+    3300086: 'Wind_shield '
+    4300000: Door_B.L
+    4300002: Door_F.R
+    4300004: back_glass
+    4300006: 'Wind_shield '
+    4300008: F_door.005
+    4300010: F_bumper.006
+    4300012: F_bumper.005
+    4300014: engine_cover .014
+    4300016: F_bumper.004
+    4300018: Side_Frame
+    4300020: Roof.004
+    4300022: 'Trunk '
+    4300024: Door_B.R
+    4300026: 'Door_F.L '
+    4300028: 'B_bumper '
+    4300030: Fussmatten_Plane.000
+    4300032: Scheinwerfer_fass.001_Plane.003
+    4300034: Rueckspiegel_Plane.003
+    4300036: Lueftungsraeder_Plane.000
+    4300038: Tachowglas_Circle.002
+    4300040: Armatur_oben_Plane.000
+    4300042: Amarture_Plane.000
+    4300044: Lueftung_Plane.000
+    4300046: Auto_Himmel_Plane.000
+    4300048: Mittelkonsole_Plane.000
+    4300050: Room_schale_Plane.000
+    4300052: Lueftungsgitter_vorne_Plane.000
+    4300054: Navi_Plane.000
+    4300056: Lueftung_vorn_mitte_Plane.003
+    4300058: Bedienung_Lueftung_Plane.000
+    4300060: steering_wheel_Circle.000
+    4300062: Armaturenbrett_Plane.000
+    4300064: Tachowglas_Circle.001
+    4300066: Sitz_High.001_Mesh.019
+    4300068: Mirrow_Plane.007
+    4300070: Sitz_High.001_Mesh.018
+    4300072: Cube.006
+    4300074: Sitz_High.001_Mesh.017
+    4300076: Sitz_High.001_Mesh.016
+    4300078: Frame.013
+    4300080: Frame.012
+    4300082: Wheel.L.F
+    4300084: Wheel.R.F
+    4300086: Wheel.R.B
+    4300088: Wheel.L.B.
+    4300090: AXA_symbol .001
+    4300092: Light_front_001_Plane.012
+    4300094: Rueckleuchten_Plane.004
+    4300096: B_bumper .008
+    4300098: lmp_cover.B
+    9500000: //RootNode
+    13700000: 'B_bumper '
+    13700002: 'Door_F.L '
+    13700004: engine_cover .014
+    13700006: F_bumper.004
+    13700008: Side_Frame
+    13700010: 'Trunk '
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
