@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Other work/cargood.unity
+- path: Assets/Other work/cedits/intro.unity
   isLoaded: 1
   isActive: 1
