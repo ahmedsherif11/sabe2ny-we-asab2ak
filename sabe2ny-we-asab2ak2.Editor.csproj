@@ -291,6 +291,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Other work\EVP5\Scripts\Editor\InspectorTools.cs" />
+    <Compile Include="Assets\Other work\EVP5\Scripts\Editor\VehicleControllerInspector.cs" />
+    <Compile Include="Assets\Other work\EVP5\Scripts\Editor\VehicleStandardInputInspector.cs" />
     <Compile Include="Assets\Other work\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
     <Compile Include="Assets\Sherif&apos;s Stuff\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
     <Compile Include="Assets\Sherif&apos;s Stuff\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
@@ -329,6 +332,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Other work\Cubism\Shader\myShader_noTransparency.shader" />
+    <None Include="Assets\Other work\EVP5\Visual Effects\Shaders\EVP Particles Alpha Blended Shadows.shader" />
+    <None Include="Assets\Other work\EVP5\Visual Effects\Shaders\EVP Tire Marks Bump.shader" />
+    <None Include="Assets\Other work\EVP5\Visual Effects\Shaders\EVP Tire Marks Debug.shader" />
+    <None Include="Assets\Other work\EVP5\Visual Effects\Shaders\EVP Tire Marks.shader" />
+    <None Include="Assets\Other work\EVP5\Visual Effects\Shaders\EVPParticleShadows.cginc" />
     <None Include="Assets\Other work\Single_detailed_truck\readme.txt" />
     <None Include="Assets\Other work\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Other work\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
