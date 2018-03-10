@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sabe2ny-we-asab2ak2", "sabe2ny-we-asab2ak2.csproj", "{822ADDD4-B2EF-B0EC-A8F4-53456E7CBEEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sabe2ny-we-asab2ak2.Editor", "sabe2ny-we-asab2ak2.Editor.csproj", "{26DA099E-AA46-B790-7A86-DBA6D5AF3E62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{822ADDD4-B2EF-B0EC-A8F4-53456E7CBEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822ADDD4-B2EF-B0EC-A8F4-53456E7CBEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822ADDD4-B2EF-B0EC-A8F4-53456E7CBEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822ADDD4-B2EF-B0EC-A8F4-53456E7CBEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26DA099E-AA46-B790-7A86-DBA6D5AF3E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DA099E-AA46-B790-7A86-DBA6D5AF3E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DA099E-AA46-B790-7A86-DBA6D5AF3E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DA099E-AA46-B790-7A86-DBA6D5AF3E62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
