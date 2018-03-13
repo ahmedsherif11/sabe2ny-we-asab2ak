@@ -17,13 +17,8 @@ public class GameLogicManager : MonoBehaviour
     {
         public UnityStandardAssets.Vehicles.Car.CarAIControl aiController;
 
-        private bool bOnce;
-
-        public bool Once
-        {
-            get { return bOnce; }
-            set { bOnce = value; }
-        }
+        public bool bOnceLeft;
+        public bool bOnceRight;
 
     };
 
@@ -40,7 +35,8 @@ public class GameLogicManager : MonoBehaviour
                  
                 AI_Struct st = new AI_Struct();
                 st.aiController = obj.GetComponent<UnityStandardAssets.Vehicles.Car.CarAIControl>();
-                st.Once = false;
+                st.bOnceLeft = false;
+                st.bOnceRight = false;
                 aiControllers.Add(st);
                  
             }
@@ -69,26 +65,31 @@ public class GameLogicManager : MonoBehaviour
                 //Debug.Log("aiSpeed " + aiSpeed.ToString());
                 float playerSpeed = Mathf.Abs(playerController.speed);
 
-                if (projected_vector > 0 && distance > 10f && playerSpeed > aiSpeed) //   meters
+                if (projected_vector > 0 && distance > 4f && playerSpeed > aiSpeed) //   meters
                 {
-
-                    if (!aiControllers[i].Once)
+                    if (dot < 0)
                     {
-                        aiControllers[i].Once = true;
-                        if (dot < 0)
+
+                        if (!aiControllers[i].bOnceLeft)
                         {
+                            aiControllers[i].bOnceLeft = true;
+
                             Debug.Log("Left of the truck");
                             score++;
+
                         }
-                        else
+                    }
+                    else
+                    {
+                        if (!aiControllers[i].bOnceRight)
                         {
+                            aiControllers[i].bOnceRight = true;
+                             
                             Debug.Log("Right of the Truck");
                             score--;
                         }
-
-                        counter++;
                     }
-
+                      
                 }
 
             }
