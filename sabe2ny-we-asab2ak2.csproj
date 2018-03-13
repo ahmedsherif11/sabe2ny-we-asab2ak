@@ -379,9 +379,11 @@
     <Compile Include="Assets\Other work\scripts\DamageSystemScript.cs" />
     <Compile Include="Assets\Other work\scripts\entecar.cs" />
     <Compile Include="Assets\Other work\scripts\exit.cs" />
+    <Compile Include="Assets\Other work\scripts\GameLogicManager.cs" />
     <Compile Include="Assets\Other work\scripts\gogo.cs" />
     <Compile Include="Assets\Other work\scripts\mouse.cs" />
     <Compile Include="Assets\Other work\scripts\setstart.cs" />
+    <Compile Include="Assets\Other work\scripts\speedlim.cs" />
     <Compile Include="Assets\Other work\scripts\timer.cs" />
     <Compile Include="Assets\Other work\scripts\triger.cs" />
     <Compile Include="Assets\Other work\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
@@ -495,6 +497,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Other work\Cubism\Shader\myShader_noTransparency.shader" />
+    <None Include="Assets\Other work\Damaged_old_van\readme.txt" />
     <None Include="Assets\Other work\EVP5\Visual Effects\Shaders\EVP Particles Alpha Blended Shadows.shader" />
     <None Include="Assets\Other work\EVP5\Visual Effects\Shaders\EVP Tire Marks Bump.shader" />
     <None Include="Assets\Other work\EVP5\Visual Effects\Shaders\EVP Tire Marks Debug.shader" />

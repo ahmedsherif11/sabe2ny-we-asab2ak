@@ -43,7 +43,7 @@ namespace UnityStandardAssets.Vehicles.Car
         private float m_AvoidOtherCarTime;        // time until which to avoid the car we recently collided with
         private float m_AvoidOtherCarSlowdown;    // how much to slow down due to colliding with another car, whilst avoiding
         private float m_AvoidPathOffset;          // direction (-1 or 1) in which to offset path to avoid other car, whilst avoiding
-        private Rigidbody m_Rigidbody;
+        public Rigidbody m_Rigidbody;
 
 
         private void Awake()

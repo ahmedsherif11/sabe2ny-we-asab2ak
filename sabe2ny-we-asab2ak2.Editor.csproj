@@ -332,6 +332,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Other work\Cubism\Shader\myShader_noTransparency.shader" />
+    <None Include="Assets\Other work\Damaged_old_van\readme.txt" />
     <None Include="Assets\Other work\EVP5\Visual Effects\Shaders\EVP Particles Alpha Blended Shadows.shader" />
     <None Include="Assets\Other work\EVP5\Visual Effects\Shaders\EVP Tire Marks Bump.shader" />
     <None Include="Assets\Other work\EVP5\Visual Effects\Shaders\EVP Tire Marks Debug.shader" />
