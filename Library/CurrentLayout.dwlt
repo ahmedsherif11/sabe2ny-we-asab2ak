@@ -360,7 +360,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -522,7 +522,7 @@ MonoBehaviour:
     height: 343
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 74}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 8c4a0000
     m_LastClickedID: 19084
     m_ExpandedIDs: 9efbffff000000003c4a0000
@@ -623,7 +623,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 236}
+    scrollPos: {x: 0, y: 220}
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: 00000000c6290000e2290000e4290000162a0000cc2b0000242c0000ee2c0000942e00007230000082300000e0300000903100009a310000c4310000f2320000a034000066360000c03700003c390000d2390000523a0000563a0000a63a0000283b00009e3c0000743d00005a3e0000d63e0000aa3f00003e400000ba400000f440000026650000286500002a6500002c6500002e650000306500003265000034650000

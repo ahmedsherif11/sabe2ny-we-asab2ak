@@ -65,7 +65,7 @@ public class GameLogicManager : MonoBehaviour
                 //Debug.Log("aiSpeed " + aiSpeed.ToString());
                 float playerSpeed = Mathf.Abs(playerController.speed);
 
-                if (projected_vector > 0 && distance > 4f && playerSpeed > aiSpeed) //   meters
+                if (projected_vector > 0 && projected_vector < 15f && distance > 10f && playerSpeed > aiSpeed) //   meters
                 {
                     if (dot < 0)
                     {
