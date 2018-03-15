@@ -4,4 +4,25 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Other work/cedits/intro.unity
+    guid: d6e090e6fc188c746a7902eb4ca3b38f
+  - enabled: 1
+    path: Assets/Other work/cedits/intro 1.unity
+    guid: 5c28b1bdea2bae24082a040bd125110a
+  - enabled: 1
+    path: Assets/Other work/cedits/intro 2.unity
+    guid: 9cd5a3a50de667c478dc4cfed54ffc72
+  - enabled: 1
+    path: Assets/Other work/cedits/intro 3.unity
+    guid: fb25f59fecff63d4bbbcf5d09828b05e
+  - enabled: 1
+    path: Assets/Other work/cedits/main.unity
+    guid: f520e63aa46ffd64d9f44ba258771d4b
+  - enabled: 1
+    path: Assets/Other work/car.unity
+    guid: 2e527888d61128f4eada12e51dbfe796
+  - enabled: 1
+    path: Assets/Other work/cedits/zcredits.unity
+    guid: 6fb7cc6a525c15848b1136c040ea9edb
