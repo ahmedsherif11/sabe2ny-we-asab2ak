@@ -1,0 +1,381 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:C:/Users/ahmedtolba/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@0.0.18/UnityEngine.Advertisements.dll
+-r:C:/Users/ahmedtolba/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@0.0.19/UnityEngine.Analytics.dll
+-r:C:/Users/ahmedtolba/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_3_0
+-define:UNITY_2017_3
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:UNITY_PRO_LICENSE
+-define:CROSS_PLATFORM_INPUT
+"Assets/Other work/cedits/main.cs"
+"Assets/Other work/cedits/netslide.cs"
+"Assets/Other work/cedits/quit.cs"
+"Assets/Other work/cedits/tomain.cs"
+"Assets/Other work/EVP5/Scripts/Extra/FollowHeading.cs"
+"Assets/Other work/EVP5/Scripts/Extra/RigidbodyImpulse.cs"
+"Assets/Other work/EVP5/Scripts/Extra/RigidbodyPause.cs"
+"Assets/Other work/EVP5/Scripts/Extra/VehicleNitro.cs"
+"Assets/Other work/EVP5/Scripts/Ground Materials/GroundMaterialManager.cs"
+"Assets/Other work/EVP5/Scripts/Ground Materials/TireMarksRenderer.cs"
+"Assets/Other work/EVP5/Scripts/Ground Materials/TireParticleEmitter.cs"
+"Assets/Other work/EVP5/Scripts/Tools/CommonTools.cs"
+"Assets/Other work/EVP5/Scripts/Tools/SceneTools.cs"
+"Assets/Other work/EVP5/Scripts/Tools/TextureCanvas.cs"
+"Assets/Other work/EVP5/Scripts/VehicleAudio.cs"
+"Assets/Other work/EVP5/Scripts/VehicleCameraController.cs"
+"Assets/Other work/EVP5/Scripts/VehicleController.cs"
+"Assets/Other work/EVP5/Scripts/VehicleDamage.cs"
+"Assets/Other work/EVP5/Scripts/VehicleManager.cs"
+"Assets/Other work/EVP5/Scripts/VehicleRandomInput.cs"
+"Assets/Other work/EVP5/Scripts/VehicleStandardInput.cs"
+"Assets/Other work/EVP5/Scripts/VehicleTelemetry.cs"
+"Assets/Other work/EVP5/Scripts/VehicleTireEffects.cs"
+"Assets/Other work/EVP5/Scripts/VehicleViewConfig.cs"
+"Assets/Other work/EVP5/Scripts/VehicleVisualEffects.cs"
+"Assets/Other work/final car/Assets/Scripts/AI/FollowAI.cs"
+"Assets/Other work/final car/Assets/Scripts/AI/VehicleWaypoint.cs"
+"Assets/Other work/final car/Assets/Scripts/Camera/BasicCameraInput.cs"
+"Assets/Other work/final car/Assets/Scripts/Camera/CameraControl.cs"
+"Assets/Other work/final car/Assets/Scripts/Damage/DetachablePart.cs"
+"Assets/Other work/final car/Assets/Scripts/Damage/ShatterPart.cs"
+"Assets/Other work/final car/Assets/Scripts/Damage/VehicleDamage.cs"
+"Assets/Other work/final car/Assets/Scripts/Demo/PerformanceStats.cs"
+"Assets/Other work/final car/Assets/Scripts/Demo/VehicleMenu.cs"
+"Assets/Other work/final car/Assets/Scripts/Drivetrain/ContinuousTransmission.cs"
+"Assets/Other work/final car/Assets/Scripts/Drivetrain/DriveForce.cs"
+"Assets/Other work/final car/Assets/Scripts/Drivetrain/GasMotor.cs"
+"Assets/Other work/final car/Assets/Scripts/Drivetrain/GearboxTransmission.cs"
+"Assets/Other work/final car/Assets/Scripts/Drivetrain/Motor.cs"
+"Assets/Other work/final car/Assets/Scripts/Drivetrain/Transmission.cs"
+"Assets/Other work/final car/Assets/Scripts/Drivetrain/Wheel.cs"
+"Assets/Other work/final car/Assets/Scripts/Editors/DetachablePartEditor.cs"
+"Assets/Other work/final car/Assets/Scripts/Editors/GasMotorEditor.cs"
+"Assets/Other work/final car/Assets/Scripts/Editors/GearboxTransmissionEditor.cs"
+"Assets/Other work/final car/Assets/Scripts/Editors/GroundSurfaceInstanceEditor.cs"
+"Assets/Other work/final car/Assets/Scripts/Editors/HoverMotorEditor.cs"
+"Assets/Other work/final car/Assets/Scripts/Editors/HoverWheelEditor.cs"
+"Assets/Other work/final car/Assets/Scripts/Editors/PropertyToggleSetterEditor.cs"
+"Assets/Other work/final car/Assets/Scripts/Editors/SuspensionEditor.cs"
+"Assets/Other work/final car/Assets/Scripts/Editors/SuspensionPartEditor.cs"
+"Assets/Other work/final car/Assets/Scripts/Editors/TerrainSurfaceEditor.cs"
+"Assets/Other work/final car/Assets/Scripts/Editors/VehicleParentEditor.cs"
+"Assets/Other work/final car/Assets/Scripts/Editors/WheelEditor.cs"
+"Assets/Other work/final car/Assets/Scripts/Effects/LightController.cs"
+"Assets/Other work/final car/Assets/Scripts/Effects/TireMarkCreate.cs"
+"Assets/Other work/final car/Assets/Scripts/Effects/TireScreech.cs"
+"Assets/Other work/final car/Assets/Scripts/Effects/VehicleLight.cs"
+"Assets/Other work/final car/Assets/Scripts/Ground/GroundSurfaceInstance.cs"
+"Assets/Other work/final car/Assets/Scripts/Ground/GroundSurfaceMaster.cs"
+"Assets/Other work/final car/Assets/Scripts/Ground/TerrainSurface.cs"
+"Assets/Other work/final car/Assets/Scripts/Hover/HoverMotor.cs"
+"Assets/Other work/final car/Assets/Scripts/Hover/HoverSteer.cs"
+"Assets/Other work/final car/Assets/Scripts/Hover/HoverWheel.cs"
+"Assets/Other work/final car/Assets/Scripts/Input/BasicInput.cs"
+"Assets/Other work/final car/Assets/Scripts/Input/MobileInput.cs"
+"Assets/Other work/final car/Assets/Scripts/Input/MobileInputGet.cs"
+"Assets/Other work/final car/Assets/Scripts/Scene/GlobalControl.cs"
+"Assets/Other work/final car/Assets/Scripts/Scene/TimeMaster.cs"
+"Assets/Other work/final car/Assets/Scripts/Static/F.cs"
+"Assets/Other work/final car/Assets/Scripts/Static/GizmosExtra.cs"
+"Assets/Other work/final car/Assets/Scripts/Static/MeshUtil.cs"
+"Assets/Other work/final car/Assets/Scripts/Stunt/FlipControl.cs"
+"Assets/Other work/final car/Assets/Scripts/Stunt/StuntDetect.cs"
+"Assets/Other work/final car/Assets/Scripts/Stunt/StuntManager.cs"
+"Assets/Other work/final car/Assets/Scripts/Suspension/PropertyToggleSetter.cs"
+"Assets/Other work/final car/Assets/Scripts/Suspension/Suspension.cs"
+"Assets/Other work/final car/Assets/Scripts/Suspension/SuspensionPart.cs"
+"Assets/Other work/final car/Assets/Scripts/Suspension/SuspensionPropertyToggle.cs"
+"Assets/Other work/final car/Assets/Scripts/Vehicle Control/SteeringControl.cs"
+"Assets/Other work/final car/Assets/Scripts/Vehicle Control/VehicleAssist.cs"
+"Assets/Other work/final car/Assets/Scripts/Vehicle Control/VehicleBalance.cs"
+"Assets/Other work/final car/Assets/Scripts/Vehicle Control/VehicleDebug.cs"
+"Assets/Other work/final car/Assets/Scripts/Vehicle Control/VehicleParent.cs"
+"Assets/Other work/scripts/autocar.cs"
+"Assets/Other work/scripts/best.cs"
+"Assets/Other work/scripts/camera.cs"
+"Assets/Other work/scripts/camerachange.cs"
+"Assets/Other work/scripts/ccccc.cs"
+"Assets/Other work/scripts/coinspin.cs"
+"Assets/Other work/scripts/counter.cs"
+"Assets/Other work/scripts/CrashScript.cs"
+"Assets/Other work/scripts/DamageSystemScript.cs"
+"Assets/Other work/scripts/entecar.cs"
+"Assets/Other work/scripts/exit.cs"
+"Assets/Other work/scripts/GameLogicManager.cs"
+"Assets/Other work/scripts/gogo.cs"
+"Assets/Other work/scripts/inbox.cs"
+"Assets/Other work/scripts/mouse.cs"
+"Assets/Other work/scripts/setstart.cs"
+"Assets/Other work/scripts/speedlim.cs"
+"Assets/Other work/scripts/timer.cs"
+"Assets/Other work/scripts/triger.cs"
+"Assets/Other work/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs"
+"Assets/Other work/Standard Assets/Cameras/Scripts/AutoCam.cs"
+"Assets/Other work/Standard Assets/Cameras/Scripts/FreeLookCam.cs"
+"Assets/Other work/Standard Assets/Cameras/Scripts/HandHeldCam.cs"
+"Assets/Other work/Standard Assets/Cameras/Scripts/LookatTarget.cs"
+"Assets/Other work/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs"
+"Assets/Other work/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs"
+"Assets/Other work/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs"
+"Assets/Other work/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs"
+"Assets/Other work/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs"
+"Assets/Other work/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs"
+"Assets/Other work/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs"
+"Assets/Other work/Standard Assets/Characters/RollerBall/Scripts/Ball.cs"
+"Assets/Other work/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs"
+"Assets/Other work/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs"
+"Assets/Other work/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs"
+"Assets/Other work/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs"
+"Assets/Other work/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs"
+"Assets/Other work/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs"
+"Assets/Other work/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs"
+"Assets/Other work/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs"
+"Assets/Other work/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs"
+"Assets/Other work/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs"
+"Assets/Other work/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs"
+"Assets/Other work/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs"
+"Assets/Other work/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs"
+"Assets/Other work/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs"
+"Assets/Other work/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs"
+"Assets/Other work/Standard Assets/Utility/ActivateTrigger.cs"
+"Assets/Other work/Standard Assets/Utility/AlphaButtonClickMask.cs"
+"Assets/Other work/Standard Assets/Utility/AutoMobileShaderSwitch.cs"
+"Assets/Other work/Standard Assets/Utility/AutoMoveAndRotate.cs"
+"Assets/Other work/Standard Assets/Utility/CameraRefocus.cs"
+"Assets/Other work/Standard Assets/Utility/CurveControlledBob.cs"
+"Assets/Other work/Standard Assets/Utility/DragRigidbody.cs"
+"Assets/Other work/Standard Assets/Utility/DynamicShadowSettings.cs"
+"Assets/Other work/Standard Assets/Utility/EventSystemChecker.cs"
+"Assets/Other work/Standard Assets/Utility/FollowTarget.cs"
+"Assets/Other work/Standard Assets/Utility/ForcedReset.cs"
+"Assets/Other work/Standard Assets/Utility/FOVKick.cs"
+"Assets/Other work/Standard Assets/Utility/FPSCounter.cs"
+"Assets/Other work/Standard Assets/Utility/LerpControlledBob.cs"
+"Assets/Other work/Standard Assets/Utility/ObjectResetter.cs"
+"Assets/Other work/Standard Assets/Utility/ParticleSystemDestroyer.cs"
+"Assets/Other work/Standard Assets/Utility/PlatformSpecificContent.cs"
+"Assets/Other work/Standard Assets/Utility/SimpleActivatorMenu.cs"
+"Assets/Other work/Standard Assets/Utility/SimpleMouseRotator.cs"
+"Assets/Other work/Standard Assets/Utility/SmoothFollow.cs"
+"Assets/Other work/Standard Assets/Utility/TimedObjectActivator.cs"
+"Assets/Other work/Standard Assets/Utility/TimedObjectDestructor.cs"
+"Assets/Other work/Standard Assets/Utility/WaypointCircuit.cs"
+"Assets/Other work/Standard Assets/Utility/WaypointProgressTracker.cs"
+"Assets/Other work/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs"
+"Assets/Other work/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs"
+"Assets/Other work/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs"
+"Assets/Other work/Standard Assets/Vehicles/Car/Scripts/CarController.cs"
+"Assets/Other work/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs"
+"Assets/Other work/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs"
+"Assets/Other work/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs"
+"Assets/Other work/Standard Assets/Vehicles/Car/Scripts/SkidTrail.cs"
+"Assets/Other work/Standard Assets/Vehicles/Car/Scripts/Suspension.cs"
+"Assets/Other work/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs"
+"Assets/Other work/Standard Assets/Vehicles/Car/Scripts/zozoai.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Attributes/GetSetAttribute.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Attributes/MinAttribute.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Attributes/TrackballAttribute.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/BloomComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/ColorGradingComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/DitheringComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/FogComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/FxaaComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/GrainComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/MotionBlurComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/TaaComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/UserLutComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Components/VignetteComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/AntialiasingModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/BloomModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/ColorGradingModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/DepthOfFieldModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/DitheringModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/EyeAdaptationModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/FogModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/GrainModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/MotionBlurModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/UserLutModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Models/VignetteModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/PostProcessingBehaviour.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/PostProcessingComponent.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/PostProcessingContext.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/PostProcessingModel.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/PostProcessingProfile.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Utils/ColorGradingCurve.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Utils/GraphicsUtils.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Utils/MaterialFactory.cs"
+"Assets/Sherif's Stuff/PostProcessing/Runtime/Utils/RenderTextureFactory.cs"
+"Assets/Sherif's Stuff/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity
