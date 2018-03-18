@@ -8,13 +8,13 @@ public class inbox : MonoBehaviour
     CarUserControl vehicleScript;
     public GameObject guiObj;
     public GameObject player;
-    public int fuel=10 ;
+    public int fuel = 10;
     private EVP.RigidbodyPause controler;
     private EVP.VehicleAudio audiio;
     public GameObject box;
     public GameObject box2;
     private IEnumerator coroutine;
-
+    private bool bTriggered = false;
 
     void Start()
     {
@@ -24,7 +24,7 @@ public class inbox : MonoBehaviour
         box2.SetActive(false);
         controler = player.GetComponent<EVP.RigidbodyPause>();
         audiio = player.GetComponent<EVP.VehicleAudio>();
-        coroutine = WaitAndPrint(1.0f);
+        coroutine = WaitAndPrint(0.7f);
 
     }
 
@@ -38,16 +38,9 @@ public class inbox : MonoBehaviour
                 guiObj.SetActive(false);
 
                 // set speed = 0
-                controler.enabled =true;
+                controler.enabled = true;
                 audiio.enabled = false;
-
-                for (int i = fuel ; i <= 50; i++)
-                { 
-
-                fuel = fuel + 1;
-                StartCoroutine(coroutine);
-                Debug.Log("Fuel =>" + fuel.ToString());
-                }
+                 
                 controler.enabled = false;
                 audiio.enabled = true;
 
@@ -57,6 +50,14 @@ public class inbox : MonoBehaviour
             }
 
 
+        }
+    }
+
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.E))
+        {
+            StartCoroutine(coroutine);
         }
     }
     void OnTriggerExit(Collider other)
@@ -71,7 +72,14 @@ public class inbox : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(waitTime);
-         }
+            fuel++;
+            print("fuel" + fuel);
+            if ( fuel >=100)
+            {
+                StopCoroutine(coroutine);
+            }
+        }
+        
     }
 
 
