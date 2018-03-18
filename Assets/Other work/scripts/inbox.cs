@@ -9,7 +9,7 @@ public class inbox : MonoBehaviour
     public GameObject guiObj;
     public GameObject player;
     public int fuel = 10;
-    private EVP.RigidbodyPause controler;
+    private EVP.VehicleController controler;
     private EVP.VehicleAudio audiio;
     public GameObject box;
     public GameObject box2;
@@ -22,7 +22,7 @@ public class inbox : MonoBehaviour
         guiObj.SetActive(false);
         box.SetActive(true);
         box2.SetActive(false);
-        controler = player.GetComponent<EVP.RigidbodyPause>();
+        controler = player.GetComponent<EVP.VehicleController>();
         audiio = player.GetComponent<EVP.VehicleAudio>();
         coroutine = WaitAndPrint(0.7f);
 
@@ -38,14 +38,11 @@ public class inbox : MonoBehaviour
                 guiObj.SetActive(false);
 
                 // set speed = 0
-                controler.enabled = true;
-                audiio.enabled = false;
-                 
                 controler.enabled = false;
-                audiio.enabled = true;
+                audiio.enabled = false;
+                bTriggered = true;
 
-                box.SetActive(false);
-                box2.SetActive(true);
+
 
             }
 
@@ -55,9 +52,10 @@ public class inbox : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.E) && bTriggered)
         {
             StartCoroutine(coroutine);
+            bTriggered = false;
         }
     }
     void OnTriggerExit(Collider other)
@@ -65,6 +63,7 @@ public class inbox : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             guiObj.SetActive(false);
+            bTriggered = false;
         }
     }
     private IEnumerator WaitAndPrint(float waitTime)
@@ -74,8 +73,15 @@ public class inbox : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
             fuel++;
             print("fuel" + fuel);
+            controler.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            controler.GetComponent<Rigidbody>().Sleep();
             if ( fuel >=100)
             {
+
+                controler.enabled = true;
+                audiio.enabled = true;
+                box.SetActive(false);
+                box2.SetActive(true);
                 StopCoroutine(coroutine);
             }
         }
