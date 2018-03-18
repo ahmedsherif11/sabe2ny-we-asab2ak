@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18387404, g: 0.22900495, b: 0.30302835, a: 1}
+  m_IndirectSpecularColor: {r: 0.18387428, g: 0.22900546, b: 0.30302885, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -88,6 +88,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -258,7 +259,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1487190348
+  randomSeed: 124496907
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4148,7 +4149,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1328013610
+  randomSeed: 586606412
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -11552,7 +11553,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 588893652
+  randomSeed: -1699090885
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -36340,7 +36341,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 15660627
+  randomSeed: 222315876
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -43996,7 +43997,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 2113749467
+  randomSeed: 1490926273
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -58452,7 +58453,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 228838940
+  randomSeed: -846923247
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -65899,7 +65900,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -533080815
+  randomSeed: -1747641250
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -69758,6 +69759,14 @@ Prefab:
     - target: {fileID: 160540, guid: 4292160a5e1fde347934ac660b2c5d30, type: 2}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 11462602, guid: 4292160a5e1fde347934ac660b2c5d30, type: 2}
+      propertyPath: pause
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11462602, guid: 4292160a5e1fde347934ac660b2c5d30, type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4292160a5e1fde347934ac660b2c5d30, type: 2}

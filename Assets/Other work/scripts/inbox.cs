@@ -9,7 +9,8 @@ public class inbox : MonoBehaviour
     public GameObject guiObj;
     public GameObject player;
     public int fuel=10 ;
-    private EVP.VehicleController controler;
+    private EVP.RigidbodyPause controler;
+    private EVP.VehicleAudio audiio;
     public GameObject box;
     public GameObject box2;
 
@@ -20,7 +21,9 @@ public class inbox : MonoBehaviour
         guiObj.SetActive(false);
         box.SetActive(true);
         box2.SetActive(false);
-        controler = player.GetComponent<EVP.VehicleController>();
+        controler = player.GetComponent<EVP.RigidbodyPause>();
+        audiio = player.GetComponent<EVP.VehicleAudio>();
+
     }
 
     void OnTriggerStay(Collider other)
@@ -33,14 +36,19 @@ public class inbox : MonoBehaviour
                 guiObj.SetActive(false);
 
                 // set speed = 0
-                controler.enabled = false;
+                controler.enabled =true;
+                audiio.enabled = false;
 
                 for (int i = fuel ; i <= 50; i++)
                 { 
+
                 fuel = fuel + 1;
-                wait();
+                StartCoroutine (wait());
+
                 }
-                controler.enabled = true;
+                controler.enabled = false;
+                audiio.enabled = true;
+
                 box.SetActive(false);
                 box2.SetActive(true);
 
