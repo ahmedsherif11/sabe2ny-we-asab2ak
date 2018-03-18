@@ -13,6 +13,7 @@ public class inbox : MonoBehaviour
     private EVP.VehicleAudio audiio;
     public GameObject box;
     public GameObject box2;
+    private IEnumerator coroutine;
 
 
     void Start()
@@ -23,6 +24,7 @@ public class inbox : MonoBehaviour
         box2.SetActive(false);
         controler = player.GetComponent<EVP.RigidbodyPause>();
         audiio = player.GetComponent<EVP.VehicleAudio>();
+        coroutine = WaitAndPrint(1.0f);
 
     }
 
@@ -43,8 +45,8 @@ public class inbox : MonoBehaviour
                 { 
 
                 fuel = fuel + 1;
-                StartCoroutine (wait());
-
+                StartCoroutine(coroutine);
+                Debug.Log("Fuel =>" + fuel.ToString());
                 }
                 controler.enabled = false;
                 audiio.enabled = true;
@@ -64,10 +66,14 @@ public class inbox : MonoBehaviour
             guiObj.SetActive(false);
         }
     }
-    IEnumerator wait()
+    private IEnumerator WaitAndPrint(float waitTime)
     {
-        yield return new WaitForSeconds(1);
+        while (true)
+        {
+            yield return new WaitForSeconds(waitTime);
+         }
     }
+
 
 
 }
