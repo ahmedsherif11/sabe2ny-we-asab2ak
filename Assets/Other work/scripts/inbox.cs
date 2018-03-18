@@ -7,9 +7,9 @@ public class inbox : MonoBehaviour
     private bool inVehicle = true;
     CarUserControl vehicleScript;
     public GameObject guiObj;
-    GameObject player;
+    public GameObject player;
     public int fuel=10 ;
-    private EVP.VehicleController controle;
+    private EVP.VehicleController controler;
     public GameObject box;
     public GameObject box2;
 
@@ -17,11 +17,10 @@ public class inbox : MonoBehaviour
     void Start()
     {
         vehicleScript = GetComponent<CarUserControl>();
-        player = GameObject.FindWithTag("Player");
         guiObj.SetActive(false);
         box.SetActive(true);
         box2.SetActive(false);
-        controle = GetComponent<EVP.VehicleController>();
+        controler = player.GetComponent<EVP.VehicleController>();
     }
 
     void OnTriggerStay(Collider other)
@@ -34,14 +33,14 @@ public class inbox : MonoBehaviour
                 guiObj.SetActive(false);
 
                 // set speed = 0
-                controle.enabled = false;
+                controler.enabled = false;
 
-                for (int i = fuel ; i >= 50; i++)
+                for (int i = fuel ; i <= 50; i++)
                 { 
                 fuel = fuel + 1;
                 wait();
                 }
-                controle.enabled = true;
+                controler.enabled = true;
                 box.SetActive(false);
                 box2.SetActive(true);
 
