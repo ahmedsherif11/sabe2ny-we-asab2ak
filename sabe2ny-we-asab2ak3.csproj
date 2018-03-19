@@ -381,6 +381,7 @@
     <Compile Include="Assets\Other work\scripts\exit.cs" />
     <Compile Include="Assets\Other work\scripts\GameLogicManager.cs" />
     <Compile Include="Assets\Other work\scripts\gogo.cs" />
+    <Compile Include="Assets\Other work\scripts\IgnoreCollision.cs" />
     <Compile Include="Assets\Other work\scripts\inbox.cs" />
     <Compile Include="Assets\Other work\scripts\mouse.cs" />
     <Compile Include="Assets\Other work\scripts\setstart.cs" />
