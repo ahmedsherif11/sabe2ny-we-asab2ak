@@ -6,7 +6,6 @@ public class IgnoreCollision : MonoBehaviour
 {
 
     Rigidbody m_Rigidbody;
-    public GameObject camera;
     EVP.VehicleCameraController cameraController;
     private void Start()
     {
