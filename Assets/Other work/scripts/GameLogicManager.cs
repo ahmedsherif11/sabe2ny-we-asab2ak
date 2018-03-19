@@ -27,7 +27,7 @@ public class GameLogicManager : MonoBehaviour
     void Start()
     {
         playerController = player.GetComponent<EVP.VehicleController>();
-
+   
         foreach (GameObject obj in AIs)
         {
             if (obj != null)
@@ -117,18 +117,14 @@ public class GameLogicManager : MonoBehaviour
     {
         RaycastHit hit;
 
-
-        int layerMaskYourHero = 1 << LayerMask.NameToLayer("ColliderLane");
-
-        Debug.Log("layermask" + layerMaskYourHero.ToString());
-
-        if (Physics.Raycast(player.transform.position, Vector3.right, out hit, 500f, layerMaskYourHero))
+         
+        if (Physics.Raycast(player.transform.position, -Vector3.right, out hit, 500f))
         {
-            if (hit.collider.gameObject.name == "Collider_1 ")
+            if (hit.collider.gameObject.name == "Collider_1")
             {
                 float dot = Vector3.Dot(player.transform.right, player.transform.position - hit.point);
 
-                if (dot < 0)
+                if (dot > 0)
 
                 {
                     Debug.Log("left of " + hit.collider.gameObject.name);
@@ -139,23 +135,7 @@ public class GameLogicManager : MonoBehaviour
                     Debug.Log("right of " + hit.collider.gameObject.name);
                 }
             }
-            else if (hit.collider.gameObject.name == "Collider_2 ")
-            {
-                float dot = Vector3.Dot(player.transform.right, player.transform.position - hit.point);
-
-                if (dot < 0)
-
-                {
-                    Debug.Log("left of " + hit.collider.gameObject.name);
-
-                }
-                else
-                {
-                    Debug.Log("right of " + hit.collider.gameObject.name);
-                }
-            }
-
-            if (hit.collider.gameObject.name == "Collider_3 ")
+            else if (hit.collider.gameObject.name == "Collider_2")
             {
                 float dot = Vector3.Dot(player.transform.right, player.transform.position - hit.point);
 
@@ -171,7 +151,23 @@ public class GameLogicManager : MonoBehaviour
                 }
             }
 
-            if (hit.collider.gameObject.name == "Collider_4 ")
+            if (hit.collider.gameObject.name == "Collider_3")
+            {
+                float dot = Vector3.Dot(player.transform.right, player.transform.position - hit.point);
+
+                if (dot < 0)
+
+                {
+                    Debug.Log("left of " + hit.collider.gameObject.name);
+
+                }
+                else
+                {
+                    Debug.Log("right of " + hit.collider.gameObject.name);
+                }
+            }
+
+            if (hit.collider.gameObject.name == "Collider_4")
             {
                 float dot = Vector3.Dot(player.transform.right, player.transform.position - hit.point);
 
@@ -190,9 +186,9 @@ public class GameLogicManager : MonoBehaviour
 
         }
 
-        if (Physics.Raycast(player.transform.position, -Vector3.right, out hit, 100f))
+        if (Physics.Raycast(player.transform.position, Vector3.right, out hit, 100f))
         {
-            if (hit.collider.gameObject.name == "Collider_1 ")
+            if (hit.collider.gameObject.name == "Collider_1")
             {
                 float dot = Vector3.Dot(player.transform.right, player.transform.position - hit.point);
 
@@ -207,23 +203,7 @@ public class GameLogicManager : MonoBehaviour
                     Debug.Log("right of " + hit.collider.gameObject.name);
                 }
             }
-            else if (hit.collider.gameObject.name == "Collider_2 ")
-            {
-                float dot = Vector3.Dot(player.transform.right, player.transform.position - hit.point);
-
-                if (dot < 0)
-
-                {
-                    Debug.Log("left of " + hit.collider.gameObject.name);
-
-                }
-                else
-                {
-                    Debug.Log("right of " + hit.collider.gameObject.name);
-                }
-            }
-
-            if (hit.collider.gameObject.name == "Collider_3 ")
+            else if (hit.collider.gameObject.name == "Collider_2")
             {
                 float dot = Vector3.Dot(player.transform.right, player.transform.position - hit.point);
 
@@ -239,7 +219,23 @@ public class GameLogicManager : MonoBehaviour
                 }
             }
 
-            if (hit.collider.gameObject.name == "Collider_4 ")
+            if (hit.collider.gameObject.name == "Collider_3")
+            {
+                float dot = Vector3.Dot(player.transform.right, player.transform.position - hit.point);
+
+                if (dot < 0)
+
+                {
+                    Debug.Log("left of " + hit.collider.gameObject.name);
+
+                }
+                else
+                {
+                    Debug.Log("right of " + hit.collider.gameObject.name);
+                }
+            }
+
+            if (hit.collider.gameObject.name == "Collider_4")
             {
                 float dot = Vector3.Dot(player.transform.right, player.transform.position - hit.point);
 

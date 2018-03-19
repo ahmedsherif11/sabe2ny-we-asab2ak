@@ -25,6 +25,7 @@ public class inbox : MonoBehaviour
         controler = player.GetComponent<EVP.VehicleController>();
         audiio = player.GetComponent<EVP.VehicleAudio>();
         coroutine = WaitAndPrint(0.7f);
+    
 
     }
 
