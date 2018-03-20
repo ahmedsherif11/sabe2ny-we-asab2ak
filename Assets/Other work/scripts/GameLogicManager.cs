@@ -12,6 +12,8 @@ public class GameLogicManager : MonoBehaviour
     public float speedLimit = 20; // KMPH
     private int score = 0;
     private static int counter = 0;
+    public GameObject scoree;
+    private string view;
 
     class AI_Struct
     {
@@ -75,7 +77,9 @@ public class GameLogicManager : MonoBehaviour
                             aiControllers[i].bOnceLeft = true;
 
                             Debug.Log("Left of the truck");
-                            score++;
+                            score= score+10;
+                            view = score.ToString("F0");
+                            scoree.GetComponent<Text>().text = view;
 
                         }
                     }
@@ -86,7 +90,9 @@ public class GameLogicManager : MonoBehaviour
                             aiControllers[i].bOnceRight = true;
                              
                             Debug.Log("Right of the Truck");
-                            score--;
+                            score = score - 10;
+                            view = score.ToString("F0");
+                            scoree.GetComponent<Text>().text = view;
                         }
                     }
                       
