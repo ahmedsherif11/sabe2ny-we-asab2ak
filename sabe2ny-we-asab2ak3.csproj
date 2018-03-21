@@ -374,6 +374,9 @@
     <Compile Include="Assets\Other work\scripts\camerachange.cs" />
     <Compile Include="Assets\Other work\scripts\ccccc.cs" />
     <Compile Include="Assets\Other work\scripts\coinspin.cs" />
+    <Compile Include="Assets\Other work\scripts\Collider_2.cs" />
+    <Compile Include="Assets\Other work\scripts\Collider_3.cs" />
+    <Compile Include="Assets\Other work\scripts\Collider_4.cs" />
     <Compile Include="Assets\Other work\scripts\counter.cs" />
     <Compile Include="Assets\Other work\scripts\CrashScript.cs" />
     <Compile Include="Assets\Other work\scripts\DamageSystemScript.cs" />
