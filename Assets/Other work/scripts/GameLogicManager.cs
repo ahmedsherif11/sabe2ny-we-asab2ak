@@ -64,7 +64,7 @@ public class GameLogicManager : MonoBehaviour
                 //Debug.Log("aiSpeed " + aiSpeed.ToString());
                 float playerSpeed = Mathf.Abs(playerController.speed);
 
-                if (projected_vector > 0 && projected_vector < 15f && distance > 10f && playerSpeed > aiSpeed) //   meters
+                if (projected_vector > 0 && projected_vector < 15f && distance < 10f && playerSpeed > aiSpeed) //   meters
                 {
                     if (dot < 0)
                     {
@@ -73,7 +73,7 @@ public class GameLogicManager : MonoBehaviour
                         {
                             aiControllers[i].bOnceLeft = true;
 
-                            // Debug.Log("Left of the truck");
+                             Debug.Log("Left of the truck");
                             score++;
 
                         }
@@ -84,7 +84,7 @@ public class GameLogicManager : MonoBehaviour
                         {
                             aiControllers[i].bOnceRight = true;
 
-                            // Debug.Log("Right of the Truck");
+                             Debug.Log("Right of the Truck");
                             score--;
                         }
                     }

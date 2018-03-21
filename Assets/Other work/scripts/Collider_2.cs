@@ -121,7 +121,7 @@ public class Collider_2 : MonoBehaviour
 
             if (!Input.GetKey(KeyCode.Q))
             {
-                Debug.Log("negative");
+               Debug.Log("negative");
             }
             else
             {
