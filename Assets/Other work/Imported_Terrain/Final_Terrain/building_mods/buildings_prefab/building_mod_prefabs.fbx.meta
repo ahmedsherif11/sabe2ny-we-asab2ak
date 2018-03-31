@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 7cb23b72cdf559244aa49b85a5d800ab
+timeCreated: 1522129989
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: building module_1 .003
+    100002: building module_1 .005
+    100004: building module_1 .008
+    100006: building module_2.003
+    100008: building module_2.005
+    100010: building module_2.006
+    100012: building module_2.007
+    100014: building module_2.008
+    100016: building module_3.003
+    100018: building module_3.005
+    100020: building module_3.006
+    100022: building module_3.007
+    100024: building module_3.008
+    100026: building module_3.009
+    100028: building module_4.003
+    100030: building module_4.005
+    100032: building module_5.000
+    100034: building module_5.001
+    100036: building module_5.003
+    100038: building module_6.003
+    100040: building module_6.005
+    100042: building module_6.006
+    100044: building module_6.007
+    100046: building module_6.010
+    100048: //RootNode
+    400000: building module_1 .003
+    400002: building module_1 .005
+    400004: building module_1 .008
+    400006: building module_2.003
+    400008: building module_2.005
+    400010: building module_2.006
+    400012: building module_2.007
+    400014: building module_2.008
+    400016: building module_3.003
+    400018: building module_3.005
+    400020: building module_3.006
+    400022: building module_3.007
+    400024: building module_3.008
+    400026: building module_3.009
+    400028: building module_4.003
+    400030: building module_4.005
+    400032: building module_5.000
+    400034: building module_5.001
+    400036: building module_5.003
+    400038: building module_6.003
+    400040: building module_6.005
+    400042: building module_6.006
+    400044: building module_6.007
+    400046: building module_6.010
+    400048: //RootNode
+    2100000: city_block_ground
+    2100002: building_mod_5
+    2100004: building_mod_3_var
+    2100006: building_mod_4
+    2100008: building_mod_6_var_2
+    2100010: building_mod_6_var_1
+    2100012: building_mod_2_var_2
+    2100014: building_mod_1_var_1
+    2100016: building_mod_2_var_1
+    2100018: building_mod_3_var_2
+    2100020: building_mod_1_var
+    2300000: building module_1 .003
+    2300002: building module_1 .005
+    2300004: building module_1 .008
+    2300006: building module_2.003
+    2300008: building module_2.005
+    2300010: building module_2.006
+    2300012: building module_2.007
+    2300014: building module_2.008
+    2300016: building module_3.003
+    2300018: building module_3.005
+    2300020: building module_3.006
+    2300022: building module_3.007
+    2300024: building module_3.008
+    2300026: building module_3.009
+    2300028: building module_4.003
+    2300030: building module_4.005
+    2300032: building module_5.000
+    2300034: building module_5.001
+    2300036: building module_5.003
+    2300038: building module_6.003
+    2300040: building module_6.005
+    2300042: building module_6.006
+    2300044: building module_6.007
+    2300046: building module_6.010
+    2300048: //RootNode
+    3300000: building module_1 .003
+    3300002: building module_1 .005
+    3300004: building module_1 .008
+    3300006: building module_2.003
+    3300008: building module_2.005
+    3300010: building module_2.006
+    3300012: building module_2.007
+    3300014: building module_2.008
+    3300016: building module_3.003
+    3300018: building module_3.005
+    3300020: building module_3.006
+    3300022: building module_3.007
+    3300024: building module_3.008
+    3300026: building module_3.009
+    3300028: building module_4.003
+    3300030: building module_4.005
+    3300032: building module_5.000
+    3300034: building module_5.001
+    3300036: building module_5.003
+    3300038: building module_6.003
+    3300040: building module_6.005
+    3300042: building module_6.006
+    3300044: building module_6.007
+    3300046: building module_6.010
+    3300048: //RootNode
+    4300000: walled_city_block_ground_var1
+    4300002: building module_5.001
+    4300004: building module_5.000
+    4300006: building module_3.009
+    4300008: building module_4.005
+    4300010: building module_6.010
+    4300012: building module_6.006
+    4300014: building module_6.007
+    4300016: building module_2.007
+    4300018: building module_1 .005
+    4300020: building module_2.008
+    4300022: building module_6.005
+    4300024: building module_3.008
+    4300026: building module_3.007
+    4300028: building module_3.006
+    4300030: building module_3.005
+    4300032: building module_1 .008
+    4300034: building module_2.006
+    4300036: building module_2.005
+    4300038: building module_1 .003
+    4300040: building module_2.003
+    4300042: building module_3.003
+    4300044: building module_4.003
+    4300046: building module_5.003
+    4300048: building module_6.003
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

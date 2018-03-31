@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 7571718acdeb88a4eaea70008874d3fd
+timeCreated: 1522129404
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: wave_Block_var_1
+    100002: wave_Block_var_1.001
+    100004: wave_Block_var_1.002
+    100006: wave_Block_var_1.003
+    100008: wave_Block_var_1.004
+    100010: wave_Block_var_1.005
+    100012: wave_Block_var_1.006
+    100014: wave_Block_var_1.007
+    100016: wave_Block_var_1.008
+    100018: wave_Block_var_1.009
+    100020: wave_Block_var_1.010
+    100022: wave_Block_var_1.011
+    100024: wave_Block_var_1.012
+    100026: wave_Block_var_1.013
+    100028: wave_Block_var_1.014
+    100030: wave_Block_var_1.056
+    100032: wave_Block_var_1.057
+    100034: wave_Block_var_1.058
+    100036: wave_Block_var_1.059
+    100038: wave_Block_var_1.060
+    100040: wave_Block_var_1.061
+    100042: wave_Block_var_1.062
+    100044: wave_Block_var_1.063
+    100046: wave_Block_var_1.065
+    100048: wave_Block_var_1.066
+    100050: wave_Block_var_1.067
+    100052: wave_Block_var_1.068
+    100054: wave_Block_var_1.069
+    100056: wave_Block_var_1.070
+    100058: //RootNode
+    400000: wave_Block_var_1
+    400002: wave_Block_var_1.001
+    400004: wave_Block_var_1.002
+    400006: wave_Block_var_1.003
+    400008: wave_Block_var_1.004
+    400010: wave_Block_var_1.005
+    400012: wave_Block_var_1.006
+    400014: wave_Block_var_1.007
+    400016: wave_Block_var_1.008
+    400018: wave_Block_var_1.009
+    400020: wave_Block_var_1.010
+    400022: wave_Block_var_1.011
+    400024: wave_Block_var_1.012
+    400026: wave_Block_var_1.013
+    400028: wave_Block_var_1.014
+    400030: wave_Block_var_1.056
+    400032: wave_Block_var_1.057
+    400034: wave_Block_var_1.058
+    400036: wave_Block_var_1.059
+    400038: wave_Block_var_1.060
+    400040: wave_Block_var_1.061
+    400042: wave_Block_var_1.062
+    400044: wave_Block_var_1.063
+    400046: wave_Block_var_1.065
+    400048: wave_Block_var_1.066
+    400050: wave_Block_var_1.067
+    400052: wave_Block_var_1.068
+    400054: wave_Block_var_1.069
+    400056: wave_Block_var_1.070
+    400058: //RootNode
+    2100000: wave_block_1
+    2100002: wave_block_2
+    2300000: wave_Block_var_1
+    2300002: wave_Block_var_1.001
+    2300004: wave_Block_var_1.002
+    2300006: wave_Block_var_1.003
+    2300008: wave_Block_var_1.004
+    2300010: wave_Block_var_1.005
+    2300012: wave_Block_var_1.006
+    2300014: wave_Block_var_1.007
+    2300016: wave_Block_var_1.008
+    2300018: wave_Block_var_1.009
+    2300020: wave_Block_var_1.010
+    2300022: wave_Block_var_1.011
+    2300024: wave_Block_var_1.012
+    2300026: wave_Block_var_1.013
+    2300028: wave_Block_var_1.014
+    2300030: wave_Block_var_1.056
+    2300032: wave_Block_var_1.057
+    2300034: wave_Block_var_1.058
+    2300036: wave_Block_var_1.059
+    2300038: wave_Block_var_1.060
+    2300040: wave_Block_var_1.061
+    2300042: wave_Block_var_1.062
+    2300044: wave_Block_var_1.063
+    2300046: wave_Block_var_1.065
+    2300048: wave_Block_var_1.066
+    2300050: wave_Block_var_1.067
+    2300052: wave_Block_var_1.068
+    2300054: wave_Block_var_1.069
+    2300056: wave_Block_var_1.070
+    2300058: //RootNode
+    3300000: wave_Block_var_1
+    3300002: wave_Block_var_1.001
+    3300004: wave_Block_var_1.002
+    3300006: wave_Block_var_1.003
+    3300008: wave_Block_var_1.004
+    3300010: wave_Block_var_1.005
+    3300012: wave_Block_var_1.006
+    3300014: wave_Block_var_1.007
+    3300016: wave_Block_var_1.008
+    3300018: wave_Block_var_1.009
+    3300020: wave_Block_var_1.010
+    3300022: wave_Block_var_1.011
+    3300024: wave_Block_var_1.012
+    3300026: wave_Block_var_1.013
+    3300028: wave_Block_var_1.014
+    3300030: wave_Block_var_1.056
+    3300032: wave_Block_var_1.057
+    3300034: wave_Block_var_1.058
+    3300036: wave_Block_var_1.059
+    3300038: wave_Block_var_1.060
+    3300040: wave_Block_var_1.061
+    3300042: wave_Block_var_1.062
+    3300044: wave_Block_var_1.063
+    3300046: wave_Block_var_1.065
+    3300048: wave_Block_var_1.066
+    3300050: wave_Block_var_1.067
+    3300052: wave_Block_var_1.068
+    3300054: wave_Block_var_1.069
+    3300056: wave_Block_var_1.070
+    3300058: //RootNode
+    4300000: wave_Block_var_1_parent
+    4300002: wave_Block_var_1.070
+    4300004: wave_Block_var_1.069
+    4300006: wave_Block_var_1.068
+    4300008: wave_Block_var_1.067
+    4300010: wave_Block_var_1.066
+    4300012: wave_Block_var_1.065
+    4300014: wave_Block_var_1.063
+    4300016: wave_Block_var_1.062
+    4300018: wave_Block_var_1.061
+    4300020: wave_Block_var_1.060
+    4300022: wave_Block_var_1.059
+    4300024: wave_Block_var_1.058
+    4300026: wave_Block_var_1.057
+    4300028: wave_Block_var_1.056
+    4300030: wave_Block_var_1.014
+    4300032: wave_Block_var_1.013
+    4300034: wave_Block_var_1.012
+    4300036: wave_Block_var_1.011
+    4300038: wave_Block_var_1.010
+    4300040: wave_Block_var_1.009
+    4300042: wave_Block_var_1.008
+    4300044: wave_Block_var_1.007
+    4300046: wave_Block_var_1.006
+    4300048: wave_Block_var_1.005
+    4300050: wave_Block_var_1.004
+    4300052: wave_Block_var_1.003
+    4300054: wave_Block_var_1.002
+    4300056: wave_Block_var_1.001
+    4300058: wave_Block_var_1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

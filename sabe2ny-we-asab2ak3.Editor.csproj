@@ -294,6 +294,13 @@
     <Compile Include="Assets\Other work\EVP5\Scripts\Editor\InspectorTools.cs" />
     <Compile Include="Assets\Other work\EVP5\Scripts\Editor\VehicleControllerInspector.cs" />
     <Compile Include="Assets\Other work\EVP5\Scripts\Editor\VehicleStandardInputInspector.cs" />
+    <Compile Include="Assets\Other work\oculus\InstantVR\Editor\HeadMovements_Editor.cs" />
+    <Compile Include="Assets\Other work\oculus\InstantVR\Editor\IVR_Animator_Editor.cs" />
+    <Compile Include="Assets\Other work\oculus\InstantVR\Editor\IVR_Controller_Editor.cs" />
+    <Compile Include="Assets\Other work\oculus\InstantVR\Editor\IVR_Editor.cs" />
+    <Compile Include="Assets\Other work\oculus\InstantVR\Editor\IVR_Extension_Editor.cs" />
+    <Compile Include="Assets\Other work\oculus\InstantVR\Editor\IVR_Traditional_Editor.cs" />
+    <Compile Include="Assets\Other work\oculus\InstantVR\Editor\IVR_UnityVR_Editor.cs" />
     <Compile Include="Assets\Other work\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
     <Compile Include="Assets\Sherif&apos;s Stuff\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
     <Compile Include="Assets\Sherif&apos;s Stuff\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
@@ -351,6 +358,7 @@
     <None Include="Assets\Other work\Stockcar\ReadMe.txt" />
     <None Include="Assets\Other work\final car\Assets\Shaders\Tires-Bump.shader" />
     <None Include="Assets\Other work\final car\Assets\Shaders\Tires.shader" />
+    <None Include="Assets\Other work\oculus\InstantVR\Readme.txt" />
     <None Include="Assets\Sherif&apos;s Stuff\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
     <None Include="Assets\Sherif&apos;s Stuff\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\Sherif&apos;s Stuff\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
